@@ -1,5 +1,5 @@
 body {
-    background-image: url(bosqueG.jpg);
+    background-image: url(./imagens/bosqueG.jpg);
     background-color: #4a5b24;
     background-repeat: no-repeat;
     background-position: center;
@@ -20,8 +20,8 @@ section{
     border-radius: 25px;
     background: #4a5b24;
     width: 400px;
-    margin: 15px auto 30px auto;
-    padding: 15px;
+    margin: 10px auto 10px auto;
+    padding: 10px;
     box-shadow: 5px 5px 15px rgba(0,0,0,363);
     color: #eafb0f;       
 }
