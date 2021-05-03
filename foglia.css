@@ -1,11 +1,92 @@
+
 body {
+   width: auto;
+   background-color: #f7aa05;
+   color: rgba(0,0,0,1)
+   font-family: Arial, sans-serif;
+   font-size: 20px;
+}
+a{
+    color: #606060;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+div#interface {
+    position: relative;
+    width: 1000px;
+  //  background-color: #ffffff;
+    margin:-50px auto 5px auto;
+    box-shadow: 0px 0px 0px rgba(0,0,0,0.5);
+    padding: 10px;
+}
+header#cabecalho{
+    border-bottom: 3px #1a1111 solid;
+    height:130px;
+}
+header#cabecalho h1{
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 25pt;
+    color: #e4e148;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+    padding:20px 0px 6px 0px;
+    margin-bottom: 0px;
+   // margin: 0;
+    height: auto;
+    width: 100%;
+}
+header#cabecalho h2{
+    font-family: Arial,sans-serif;
+    color: #888888;
+    font-size:15pt;
+    padding: 0px;
+    margin-top: 0px;
+}
+header#cabecalho img#icone{
+    position: absolute;
+    top: 50px;
+    left: -50px;
+}
+
+body#primo {
     background-image: url(./imagens/bosqueG.jpg);
-    background-color: #4a5b24;
-    background-repeat: no-repeat;
-    background-position: center;
-    font: normal 20px arial;
-    color: rgba(25,25,32,365); 
-    margin: auto;
+}
+nav#menu{
+    display:block;
+}
+nav#menu ul{
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: 100px;
+	left: -150px;
+}
+nav#menu li{
+    display: inline-block;
+    background-color: #18b95b;
+    padding: 5px;
+    margin:2px;
+    transition: background-color 0.5s;
+    }
+nav#menu li:hover{
+    background-color: #606060;
+}
+nav#menu a{
+    color: #e4d280;
+    text-decoration:none;
+}
+nav#menu a:hover{
+    color: #e4d280;
+    text-decoration: underline;
+    background:#4a5b24;
+}
+nav#menu a{
+    color: #000000;
+    text-decoration: none;
+}
+nav#menu h1{
+    display: none;
 }
 header {
     background: #4a5b24;
@@ -19,9 +100,9 @@ section{
     text-align: center;
     border-radius: 25px;
     background: #4a5b24;
-    width: 400px;
-    margin: 10px auto 10px auto;
-    padding: 10px;
+    width: 500px;
+    margin: 5px auto auto auto;
+    padding: 5px;
     box-shadow: 5px 5px 15px rgba(0,0,0,363);
     color: #eafb0f;       
 }

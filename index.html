@@ -8,14 +8,24 @@
 
     <title>Primo Progetto</title>
 </head>
-<body onload="carregar()">
-    <header>
+<body id="primo" onload="carregar()">
+   <div id="interface">
+    <header id="cabecalho">
+        <hgroup>
+            <img id="icone" src="./imagens/casa.png" alt="Imagem da pagina">
+            <nav id="menu">
+                <ul>
+                    <li onmouseover="mudaFoto('./imagens/casa.png')" onmouseout="mudaFoto('./imagens/casa.png')"><a href="index.html">Home</a></li>
+                    <li onmouseover="mudaFoto('./imagens/uno_65.png')" onmouseout="mudaFoto('./imagens/casa.png')"><a href="pagina_uno.html">Pagina uno</a></li>
+                </ul>
+            </nav>
+            </hgroup>
         <div>
             <h1>Primo Progetto</h1>
         </div>
-    
+   
     </header>
-    
+   
     <section>
         <div>
             <img src="imagens/teste.jpg" alt="Foto"> 
@@ -32,7 +42,7 @@
         <div>
             <p>Il nostro amore è una cosa molto bella, che appezzo molto, perché è difficile da trovare ma facile da perdere!</p>
             <audio id="musica" controls=""controls>
-                <source src="Primo-Progetto.mp3" type="audio/mpeg">
+                <source src="./audio/Nostro_amore.mp3" type="audio/mpeg">
                 Desculpe não foi possível carregar o áudio.
                </audio> 
         </div>
@@ -41,7 +51,7 @@
 
     </footer>
     <script src="comandi.js"></script>
-
+   </div>
     
 </body>
 </html>
